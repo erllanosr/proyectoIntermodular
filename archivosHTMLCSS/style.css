@@ -1,0 +1,60 @@
+* {
+  font-family: "Fira Code", monospace;
+  /*border: 1px solid red;*/
+  margin: 0;
+  box-sizing: border-box;
+  color: #282a36;
+}
+body {
+  background-color: #f8f8f2;
+}
+
+/*Estilos para la barra de navegación*/
+.topnav {
+  background-color: #0C090D;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topnav a {
+  float: left;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #f8f8f2;
+  color: #282a36;
+}
+
+.topnav a.active {
+  background-color: #f8f8f2;
+  color: #282a36;
+}
+
+.nav_contacto, .nav_sobreNosotros {
+  color: #f8f8f2;
+}
+
+/*Estilos para el formulario*/
+
+input:focus {
+  outline: none;
+  border: 2px solid #F15946;
+}
+.form_InicioSesion, .form_Registro {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Estilos para el footer*/
+p.copyright {
+  margin-top: 30px;
+  text-align: center;
+}

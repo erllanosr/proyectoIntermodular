@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap" rel="stylesheet" />
+    <title>Inicio Sesión</title>
+  </head>
+  <body>
+    <header>
+      <nav class="topnav">
+        <a class="active" href="#inicio">INICIO</a>
+        <a href="#contacto" class="nav_contacto">CONTACTO</a>
+        <a href="#sobreNosotros" class="nav_sobreNosotros">SOBRE NOSOTROS</a>
+      </nav>
+    </header>
+    <main>
+      <form action="inicio_sesion.php" class="form_InicioSesion" method="post">
+        <fieldset>
+          <legend>Inicia Sesión</legend>
+          <label for="email">Email</label> <br />
+          <!--TIENE QUE SER UN EMAIL-->
+          <input type="email" name="name" placeholder="ejemplo@gmail.com" /> <br />
+          <label for="pwd">Contraseña</label><br />
+          <input type="password" name="pwd" placeholder="&#183;&#183;&#183;&#183;&#183;&#183;&#183;" />
+          <br />
+          <br />
+          <input type="reset" value="Limpiar" />
+          <input type="button" value="Enviar" />
+          <br />
+          <br />
+          <p>¿No tienes una cuenta?</p>
+          <a href="formRegistro.html" target="_blank">Regístrate</a>
+        </fieldset>
+      </form>
+    </main>
+    <footer>
+      <p class="copyright">&copy;Copyright Proyecto Intermodular 2022</p>
+    </footer>
+  </body>
+</html>
